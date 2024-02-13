@@ -1,3 +1,5 @@
+# This code will assist when a push command back to the remote repository is not functioning.
+
 
 Full Stack@m622pro100 MINGW64 ~/OneDrive/Desktop/Revised_SnapShots_MOSH (main)
 $ git init
