@@ -1,8 +1,10 @@
 # Mosh_Creating_Snapshots
+This is a revised repository version of the repository that was produced on Feburary 1, 2024.
+Git commits will be revised.  
 This repository will bring an indept look at GIT and GitHub processes.  We will minupulate snapshots.  
 <h1>Student: Michael V Proctor</h1>
 <h1>Class: Code With Mosh</h1>
-<h1>Date: Feburary 1, 2024</h1>
+<h1>Date: Feburary 13, 2024</h1>
 <h1>Location: Bloomfield, New Jersey</h1>
 
 <br>*** Initialize a new repository.  Add two files in your working directory.</br>
