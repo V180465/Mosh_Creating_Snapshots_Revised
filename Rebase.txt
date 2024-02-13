@@ -1,0 +1,145 @@
+
+Full Stack@m622pro100 MINGW64 ~/OneDrive/Desktop/Revised_SnapShots_MOSH (main)
+$ git init
+Reinitialized existing Git repository in C:/Users/Full Stack/OneDrive/Desktop/Revised_SnapShots_MOSH/.git/
+
+Full Stack@m622pro100 MINGW64 ~/OneDrive/Desktop/Revised_SnapShots_MOSH (main)
+$ git ls-files
+Mosh_Creating_Snapshots_Revised
+file1.txt
+file2.txt
+
+Full Stack@m622pro100 MINGW64 ~/OneDrive/Desktop/Revised_SnapShots_MOSH (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+Full Stack@m622pro100 MINGW64 ~/OneDrive/Desktop/Revised_SnapShots_MOSH (main)
+$ git add .
+
+Full Stack@m622pro100 MINGW64 ~/OneDrive/Desktop/Revised_SnapShots_MOSH (main)
+$ git commit - "first commit"
+error: pathspec '-' did not match any file(s) known to git
+error: pathspec 'first commit' did not match any file(s) known to git
+
+Full Stack@m622pro100 MINGW64 ~/OneDrive/Desktop/Revised_SnapShots_MOSH (main)
+$ git commit -m "first commit"
+On branch main
+nothing to commit, working tree clean
+
+Full Stack@m622pro100 MINGW64 ~/OneDrive/Desktop/Revised_SnapShots_MOSH (main)
+$ git remote add origin ^[Mosh_Creating_Snapshots_Revised[200~V180465
+error: remote origin already exists.
+
+Full Stack@m622pro100 MINGW64 ~/OneDrive/Desktop/Revised_SnapShots_MOSH (main)
+$ Mosh_Creating_Snapshots_Revised~
+bash: Mosh_Creating_Snapshots_Revised~: command not found
+
+Full Stack@m622pro100 MINGW64 ~/OneDrive/Desktop/Revised_SnapShots_MOSH (main)
+$ git push -u origin main
+To https://github.com/V180465/Mosh_Creating_Snapshots_Revised.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/V180465/Mosh_Creating_Snapshots_Revised.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Full Stack@m622pro100 MINGW64 ~/OneDrive/Desktop/Revised_SnapShots_MOSH (main)
+$ git pull --rebase origin main
+From https://github.com/V180465/Mosh_Creating_Snapshots_Revised
+ * branch            main       -> FETCH_HEAD
+warning: unable to rmdir 'Mosh_Creating_Snapshots_Revised': Directory not empty
+Successfully rebased and updated refs/heads/main.
+
+Full Stack@m622pro100 MINGW64 ~/OneDrive/Desktop/Revised_SnapShots_MOSH (main)
+$ git log
+commit 0c1e099c29f235d19651383e738c76e6d7d2abf0 (HEAD -> main)
+Author: Michael V Proctor <V18041965@hotmail.com>
+Date:   Tue Feb 13 14:35:36 2024 -0500
+
+    file1.txt modified with additonal text
+
+    (file1.txt):  file1.txt was modified so the coder can view the changes in the working directory
+
+    Close:  Please view instruction # 8 on viewing the changes in the working directory.
+
+commit a1bea86e7ffad9621ec70fec2f21d062b05f39d9
+Author: Michael V Proctor <V18041965@hotmail.com>
+Date:   Tue Feb 13 13:40:48 2024 -0500
+
+    two files 'file1.txt' and 'file2.txt' added in the local repository.
+
+    Added files 'file1.txt & file2.txt' as per instruction for creating snapshots for this particular exercise.
+
+    Close:  Issue # 5 in Creating Snapshots Exercise.
+
+commit 68dbacc2e686a50f97ff7ea38d083cefb4d5688d (origin/main)
+Author: Michael V Proctor <157426331+V180465@users.noreply.github.com>
+Date:   Tue Feb 13 16:07:51 2024 -0500
+
+    Revised Creating SnapShots
+
+    This document are instructions given by Computer Coder/YouTuber Virag-ky on how to create viable Commit statements, so this process can be conveyed to the "Real Coding World" and programmers to on how generate readable and comprehsive Commit statments.
+
+    Git Statments were generated using the "Code With Mosh" exercises on Creating SnapShots.
+
+commit 3aa02d2a76618d35bcb0a83dbf54a073a4a0b351
+Author: Michael V Proctor <157426331+V180465@users.noreply.github.com>
+Date:   Tue Feb 13 16:01:13 2024 -0500
+
+    Delete Creating Snapshots.docx
+
+    This file called "Creating SnapShots"  was deleted and replaced by a new file called "Creating Snapshots with revised commit statements on placing expansive instuctions so the coder/reader will know what the original coder performed in the coding process.
+
+commit a3ef9fd0f18de4c108b56d5b680f3697e276616d
+Merge: e73e074 4435415
+Author: Michael V Proctor <157426331+V180465@users.noreply.github.com>
+Date:   Tue Feb 13 12:47:16 2024 -0500
+
+    Merge pull request #2 from V180465/V180465-patch-2
+
+    Code of Conduct added for github repository
+
+commit 44354158e625fd88a9b9eadcc245d9fbb295ea4e (origin/V180465-patch-2)
+Author: Michael V Proctor <157426331+V180465@users.noreply.github.com>
+Date:   Tue Feb 13 12:46:51 2024 -0500
+
+    Code of Conduct added for github repository
+
+    A code of conduct defines standards for how to engage in a community. It signals an inclusive environment that respects all contributions. It also outlines procedures for addressing problems between members of your project's community.
+
+commit e73e074ac93181dc8253b71677fceb2057830ee3
+Merge: fa2c25f 19c1f77
+Author: Michael V Proctor <157426331+V180465@users.noreply.github.com>
+Date:   Tue Feb 13 12:39:12 2024 -0500
+
+    Merge pull request #1 from V180465/V180465-patch-1
+
+    Revised README.md
+
+commit 19c1f774ff15cb960578f3d43f3ef9dacd2371ce (origin/V180465-patch-1)
+Author: Michael V Proctor <157426331+V180465@users.noreply.github.com>
+Date:   Tue Feb 13 12:37:56 2024 -0500
+
+    Update README.md
+
+    This is a revised version of the git commit.  Utilizing and providing more in dept analysis for why the commit has occurred.  Thus when the another coder examines the original's coder's processes it will be more understandable.
+
+commit fa2c25ff56568605f53ea3b846f6983f3ff402f4
+
+Full Stack@m622pro100 MINGW64 ~/OneDrive/Desktop/Revised_SnapShots_MOSH (main)
+$ git push -u origin main
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 836 bytes | 836.00 KiB/s, done.
+Total 6 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/V180465/Mosh_Creating_Snapshots_Revised.git
+   68dbacc..0c1e099  main -> main
+branch 'main' set up to track 'origin/main'.
+
+Full Stack@m622pro100 MINGW64 ~/OneDrive/Desktop/Revised_SnapShots_MOSH (main)
+$
