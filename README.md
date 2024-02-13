@@ -1,6 +1,6 @@
 # Mosh_Creating_Snapshots
-This is a revised repository version of the repository that was produced on Feburary 1, 2024.
-Git commits will be revised.  
+This is a revised repository version of the git commits that were produced on Feburary 1, 2024.
+Git commits were revised.  
 This repository will bring an indept look at GIT and GitHub processes.  We will minupulate snapshots.  
 <h1>Student: Michael V Proctor</h1>
 <h1>Class: Code With Mosh</h1>
